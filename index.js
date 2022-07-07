@@ -7,14 +7,11 @@
 */
 //   - Question: Let and Const – What's the Difference?
 //  ES6
-
     const MAX_SIZE = 25 * 1024 * 1024;
     let title = 'Hello World';
     title = 'Hello ES6';
-    
     //let có thể gán lại giá trị
     //const không gán được gián trị nhưng có thể gán lại key
-
 /*
     2. String Interpolation
     - ES5
@@ -27,14 +24,12 @@
     ```
   */
  // ES6
-
     let user = { name: 'David' };
     let card = { amount: 7, product: "Bar", unitprice: 42 };
     let message = `Hello ${user.name},
     want to buy ${card.amount} ${card.product} for
     a total of ${card.amount * card.unitprice} bucks?`;
     console.log(message);
-
 /*
 3. Rest Parameter
   - ES5
@@ -53,8 +48,6 @@
     }
     foo(1, 2, 'hello', true, 7) === 9;
  
-
-
    /* 4. Default Parameter Values
   - ES5
   ```
@@ -69,7 +62,6 @@
   };
   ```
   */
-
     const sum = (x, y = 7, z = 42) => {
         return x + y + z;
     }
